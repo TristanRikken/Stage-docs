@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+.bg-img {
+    background-image: url(images/david-preston-155661.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background: linear-gradient(to left, rgba(37, 163, 189, 0.90), rgba(46, 167, 171, 0.90) );
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.container { 
+    margin-top: 30px;
+    margin: auto;
+    max-width: 575px;
+    padding: 332px 0px;
+}
+
+.logo img {
+    height: 55px;
+    margin-top: 8%;
+}
+
+.middle {
+    text-align: center;
+}
+input[type=email], [type=password], [type=text]  {
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0px;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 0 14px 8px;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.hide-show {
+    align-items: center;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: #262626;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    -webkit-appearance: none;
+    width: 100%;
+    border: 1px solid #efefef;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #EA1684;
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+    font-family: open sans;
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+
+input[type=submit]:hover {
+    background-color: #A0115C;
+}
+
+label {
+    font-family: open sans;
+}
+
+.container form {
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 575px;
+    padding: 10% 20%;
+}
+
+form a {
+    font-family: open sans;
+    font-size: 12px;
+    text-decoration: underline;
+    color: mediumslateblue;
+    margin-left: 1px;
+}
+
+.box a {
+    font-family: open sans;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.account {
+    padding: 30px;
+
+}
+
+.show a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #25A3BD;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
